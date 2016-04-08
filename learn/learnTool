@@ -1,0 +1,11 @@
+Latex beamer
+    slides
+
+sublime
+    texting
+
+plot.ly
+	plotting
+
+eclipse reset preference
+	rm -r ~/studio/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/
