@@ -1,0 +1,19 @@
+
+RuntimeException
+ArithmeticException
+ClassCaseException
+UnsupportedOperationException - add is not supported by this collection.
+ClassCastException - class of the specified element prevents it from being added to this collection.
+NullPointerException - if the specified element is null and this collection does not support null elements.
+IllegalArgumentException - some aspect of this element prevents it from being added to this collection.
+...
+
+
+
+Throwable
+|- Error
+|- Exception
+   |- XXException
+   |- RuntimeException
+
+

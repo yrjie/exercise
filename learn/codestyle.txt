@@ -1,0 +1,6 @@
+use ternary operation to do conditional assignment, but for one assignment, keep using if
+    cmp.compare(sa[i], sa[i - 1]) == 0 ? 0 : 1
+    if (idx>=n-1){
+        finish = true;
+    }
+

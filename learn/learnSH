@@ -113,3 +113,10 @@ if [ -z $var ]
      string is null, that is, has zero length
 
 
+check exit status
+    set -o errexit -o nounset -o pipefail
+
+check return code, 0 means true
+  a='2'
+  [[ $a == '1' ]] && rc=$? || rc=$?
+

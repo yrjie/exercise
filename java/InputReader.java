@@ -92,7 +92,7 @@ private class OutputWriter {
         }
     }
 
-    public void printLine(Object...objects) {
+    public void println(Object...objects) {
         print(objects);
         writer.println();
     }
