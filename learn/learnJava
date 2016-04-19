@@ -17,3 +17,7 @@ Throwable
    |- RuntimeException
 
 
+ternary operator is of higher priority than short circuit
+    p.pos>=0&&p.left?map[0].charAt(p.pos)=='-':map[1].charAt(p.pos)=='-'; will have String index out of range: -1 exception
+
+

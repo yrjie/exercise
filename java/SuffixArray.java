@@ -37,9 +37,9 @@ public static class SuffixArray {
             sa[i] = i;
         }
         Arrays.sort(sa, cmp);
+        int[] tmp = new int[n + 1];
         for (k = 1; k < n; k += k) {
             Arrays.sort(sa, cmp);
-            int[] tmp = new int[n + 1];
             tmp[sa[0]] = 0;
             for (int i = 1; i <= n; i++) {
                 tmp[sa[i]] = tmp[sa[i - 1]] + (cmp.compare(sa[i], sa[i - 1]) == 0 ? 0 : 1);

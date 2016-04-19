@@ -1,0 +1,9 @@
+
+clear docker-machine
+    docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro -v /var/lib/docker:/var/lib/docker martin/docker-cleanup-volumes
+
+docker mounting model
+    tmpfs  --virtualbox-memory, default 1024M
+    /dev/sda1 --virtualbox-disk-size, default 20000M
+
+
